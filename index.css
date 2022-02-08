@@ -1,6 +1,10 @@
 h1{
+    /* テキストの幅でグラデーションさせる為 */
     display: inline-block;
+    /* 角度・色・割合を決める */
     background: linear-gradient(90deg, #0018b4 0%, #ff0000 50%, #00ff1e 100%);
+    /* 背景のグラデーションをどの範囲まで拡張するかを指定 */
     -webkit-background-clip: text;
+    /* 文字を透明にして、背景のグラデーションを見せる */
     color: transparent;
 }
